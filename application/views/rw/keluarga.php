@@ -41,6 +41,37 @@
     </div>
 </div>
 
+<div class="modal animated bounceInDown delay-2s" id="modal_user">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"><center>Aktivasi User</center></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="form_user">
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="hidden" name="no_kk" id="no_kk2">
+            <input type="email" class="form-control" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Level</label>
+            <select class="form-control" name="level" id="level">
+              <option value="">--Pilih Level--</option>
+              <option value="Warga">Warga</option>
+              <option value="RT">RT</option>
+            </select>
+          </div>
+          <div class="form-grup">
+            <center><button type="submit" class="btn btn-primary">Simpan</button></center>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
 <script type="text/javascript">
   function load_data(cari){
     $.ajax({
